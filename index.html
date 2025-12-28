@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>请假申请</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 主容器 -->
+    <div class="main-container">
+        <!-- 黄脸表情 -->
+        <div class="face-container">
+            <div class="face">
+                <div class="eye left-eye">
+                    <div class="pupil"></div>
+                </div>
+                <div class="eye right-eye">
+                    <div class="pupil"></div>
+                </div>
+                <div class="mouth"></div>
+            </div>
+        </div>
+
+        <!-- 内容容器 -->
+        <div class="content-container">
+            <!-- 请假提示框 -->
+            <div class="popup" id="popup">
+                <h2>请假申请</h2>
+                <p>尊敬的辅导员：</p>
+                <p>您好！我因身体不适，需要请假一天，望批准。</p>
+                <div class="buttons">
+                    <button id="approve">同意</button>
+                    <button id="reject">不同意</button>
+                </div>
+            </div>
+
+            <!-- 请假成功提示 -->
+            <div class="success" id="success">
+                <h2>请假成功！</h2>
+                <p>您的请假申请已获批准。</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
